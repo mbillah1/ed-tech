@@ -134,3 +134,297 @@ a {
   line-height: 30px;
   color: #f4f4f4;
 }
+
+.stu-header h3 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 60px;
+  color: #1d1d1d;
+}
+
+.stu-header p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #777777;
+}
+
+.authors img {
+  width: 48px;
+  height: 48px;
+}
+
+.author-info h5 {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}
+
+.student-feedback .carousel-control-next-icon {
+  background: #289bde;
+  width: 40px;
+  height: 40px;
+  margin-right: -85%;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.student-feedback .carousel-control-prev-icon i,
+.student-feedback .carousel-control-next-icon i {
+  font-size: 25px;
+  line-height: 42px;
+}
+
+.student-feedback .carousel-control-prev-icon {
+  background: #289bde;
+  width: 40px;
+  height: 40px;
+  color: #fff !important;
+  border-radius: 50% !important;
+  position: absolute;
+  left: -5%;
+}
+
+.faq-item {
+  margin: 16px;
+  border-top: 1px solid #ddd !important;
+  border-radius: 3px;
+}
+
+.star i {
+  color: #f59e0b;
+}
+
+footer {
+  background-color: #161616;
+}
+
+footer h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+footer p,
+a {
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #e8e8e8;
+}
+
+.social-link a {
+  background-color: #242424;
+  padding: 10px;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+}
+
+.social-link a:hover {
+  background-color: #e8e8e8;
+  color: #161616;
+}
+
+.course-thumb img {
+  width: 100%;
+}
+
+.hide-desktop {
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  .section-heading {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .section-heading h2 {
+    font-size: 18px;
+  }
+
+  .section-heading p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .course-content h4 {
+    font-size: 16px;
+  }
+
+  .course-content p {
+    font-size: 14px;
+  }
+
+  .explore-content h3 {
+    font-size: 20px;
+  }
+
+  .explore-content {
+    padding: 20px !important;
+  }
+
+  .explore-content p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+
+  .f-column {
+    flex-direction: column;
+  }
+
+  .cta-content {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .cta-content h3 {
+    font-size: 18px;
+  }
+
+  .cta-content p {
+    font-size: 14px;
+  }
+
+  .stu-header {
+    width: 100%;
+    text-align: center;
+  }
+
+  .stu-header h3 {
+    font-size: 20px;
+  }
+
+  .stu-header h3 {
+    font-size: 14p;
+  }
+
+  .stu-header p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .faq-question {
+    width: 100% !important;
+  }
+
+  .fedback {
+    padding: 30px !important;
+  }
+
+  .author-info h5 {
+    font-size: 16px;
+  }
+
+  .author-info p {
+    font-size: 14px;
+  }
+
+  .student-feedback .carousel-control-prev-icon,
+  .student-feedback .carousel-control-next-icon {
+    display: none !important;
+  }
+
+  .c-caption {
+    top: 0;
+  }
+  .c-caption h1 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+
+  .c-caption p {
+    font-size: 12px !important;
+    line-height: 20px !important;
+    width: 100% !important;
+  }
+
+  .c-caption a {
+    margin-top: 16px !important;
+    padding: 2px 8px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-heading {
+    width: 90% !important;
+  }
+
+  .section-heading h2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .explore-content {
+    padding: 20px !important;
+  }
+
+  .explore-content h3 {
+    font-size: 30px;
+  }
+
+  .ex-counter h3 {
+    font-size: 23px;
+  }
+
+  .ex-counter p {
+    font-size: 16px;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+  .hide-tablet {
+    display: none;
+  }
+
+  .f-column {
+    flex-direction: column;
+  }
+
+  .cta-content {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .cta-content h3 {
+    font-size: 30px;
+  }
+
+  .stu-header {
+    width: 100% !important;
+  }
+
+  .stu-header h3 {
+    font-size: 30px;
+  }
+
+  .stu-header p {
+    font-size: 16px;
+    width: 80%;
+  }
+
+  .c-caption {
+    top: 5;
+  }
+  .c-caption h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .c-caption p {
+    font-size: 16px;
+    line-height: 20px;
+    width: 100% !important;
+  }
+
+  .c-caption a {
+    margin-top: 16px !important;
+    padding: 2px 8px;
+  }
+}
