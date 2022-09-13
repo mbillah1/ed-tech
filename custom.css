@@ -9,6 +9,29 @@ a {
 }
 
 /* Section Heading Utility Class  */
+.w-45 {
+  width: 45%;
+}
+
+.w-55 {
+  width: 55%;
+}
+.my-100 {
+  margin: 100px 0px;
+}
+
+.mr-5 {
+  margin-right: 5px !important;
+}
+
+.ml-5 {
+  margin-left: 5px !important;
+}
+
+.ptb-100 {
+  padding: 100px 0px;
+}
+
 .section-heading {
   margin-top: 100px;
 }
@@ -56,4 +79,20 @@ a {
 .c-caption p {
   font-size: 18px;
   line-height: 30px;
+}
+
+/* Course Section Start  */
+.course-content h4 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+  color: #4a4a4a;
+}
+
+.course-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
 }
