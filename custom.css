@@ -8,6 +8,28 @@ a {
   text-decoration: none;
 }
 
+/* Section Heading Utility Class  */
+.section-heading {
+  margin-top: 100px;
+}
+
+.section-heading h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 60px;
+  color: #1d1d1d;
+}
+
+.section-heading p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #777777;
+}
+
 /* Header Carousel Style  */
 
 .c-item::before {
