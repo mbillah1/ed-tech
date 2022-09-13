@@ -9,6 +9,11 @@ a {
 }
 
 /* Section Heading Utility Class  */
+
+.bg-light-sky-blue {
+  background-color: #f4fafd;
+}
+
 .w-45 {
   width: 45%;
 }
@@ -94,5 +99,24 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  color: #777777;
+}
+
+/* Explore Section  */
+.explore-thumb {
+  margin-left: -11px;
+  padding: 0px;
+}
+
+.explore-content h3 {
+  font-weight: 600;
+  font-size: 45px;
+  color: #1d1d1d;
+}
+
+.explore-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
   color: #777777;
 }
